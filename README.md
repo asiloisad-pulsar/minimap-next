@@ -17,7 +17,7 @@ Fork of [minimap](https://github.com/atom-minimap/minimap).
 
 ## Installation
 
-To install `minimap-next` search for [minimap-next](https://web.pulsar-edit.dev/packages/minimap-next) in the Install pane of the Pulsar settings or run `ppm install minimap-next`. Alternatively, you can run `ppm install asiloisad/pulsar-minimap-next` to install a package directly from the GitHub repository.
+To install `minimap-next` search for [minimap-next](https://web.pulsar-edit.dev/packages/minimap-next) in the Install pane of the Pulsar settings or run `ppm install minimap-next`. Alternatively, you can run `ppm install asiloisad-pulsar/minimap-next` to install a package directly from the GitHub repository.
 
 ## Customization
 
