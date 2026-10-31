@@ -38,6 +38,13 @@
       "type": "boolean",
       "default": true
     },
+    "useGitDiffGutter": {
+      "order": 5,
+      "title": "Use Git Diff Gutter",
+      "description": "Display git diffs as thin vertical lines on the left side of the minimap instead of highlighting the whole line.",
+      "type": "boolean",
+      "default": false
+    },
     "adjustMinimapWidthToSoftWrap": {
       "order": 6,
       "title": "Adjust Minimap Width To Soft Wrap",

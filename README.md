@@ -8,6 +8,7 @@ Fork of [minimap](https://github.com/atom-minimap/minimap).
 
 - **Canvas rendering**: Three-layer canvas (back decorations, tokens, front decorations) with incremental redraws — only changed row ranges are repainted.
 - **Syntax highlighting**: Token colors are resolved directly from the active theme via computed DOM styles and cached per scope, so the minimap matches the editor exactly.
+- **Git diff**: Added, modified and removed lines are highlighted, as full lines or as thin gutter marks. Toggle it with the `git-diff` entry in quick settings or the `minimap-next:toggle-git-diff` command.
 - **Scroll past end**: The minimap proportionally tracks the full editor scroll range, including the scroll-past-end zone.
 - **Decoration API**: Uses the same marker-based API as `TextEditor` — supports `line`, `gutter`, `highlight-under`, `highlight-over`, `highlight-outline`, and `background-custom`/`foreground-custom` types.
 - **Plugin system**: Third-party packages can consume the `minimap-next` service to add their own decoration layers.
