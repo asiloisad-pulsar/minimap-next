@@ -136,6 +136,12 @@
     "core:loaded-shell-environment"
   ],
   "providedServices": {
+    "minimap": {
+      "description": "Compatibility API for extensions of the original minimap package",
+      "versions": {
+        "1.0.0": "provideMinimapServiceV1"
+      }
+    },
     "minimap-next": {
       "description": "Exposes the minimap API to other packages",
       "versions": {

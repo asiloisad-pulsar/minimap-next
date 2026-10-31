@@ -10,7 +10,7 @@ Fork of [minimap](https://github.com/atom-minimap/minimap).
 - **Syntax highlighting**: Token colors are resolved directly from the active theme via computed DOM styles and cached per scope, so the minimap matches the editor exactly.
 - **Scroll past end**: The minimap proportionally tracks the full editor scroll range, including the scroll-past-end zone.
 - **Decoration API**: Uses the same marker-based API as `TextEditor` — supports `line`, `gutter`, `highlight-under`, `highlight-over`, `highlight-outline`, and `background-custom`/`foreground-custom` types.
-- **Plugin system**: Third-party packages can consume the `minimap-next` service to add their own decoration layers.
+- **Plugin system**: Third-party packages can consume the `minimap-next` or original `minimap` service to add their own decoration layers.
 - **Quick settings**: Toggle plugins and flip the minimap position via a dropdown on the minimap itself.
 - **Stand-alone mode**: Embed a minimap preview outside of a text editor for custom UI panels.
 - **Independent scroll**: Optionally decouple mouse-wheel scrolling on the minimap from the editor.
@@ -83,7 +83,7 @@ In your main module:
 ```javascript
 consumeMinimap(api) {
   api.observeMinimaps((minimap) => {
-    const decoration = minimap.decorateMarker(marker, {
+    minimap.decorateMarker(marker, {
       type: "line",
       color: "#ff0000",
       plugin: "my-plugin",
