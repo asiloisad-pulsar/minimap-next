@@ -2,6 +2,9 @@
 
 A preview of the full source code.
 
+> [!NOTE]
+> This package is in maintenance mode. If you use [Lumine](https://github.com/lumine-code/lumine), you may be interested in [minimap](https://github.com/lumine-code/minimap).
+
 Fork of [minimap](https://github.com/atom-minimap/minimap).
 
 ## Features
